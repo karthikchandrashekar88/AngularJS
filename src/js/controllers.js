@@ -4,5 +4,8 @@
 'use strict';
 angular.module('myApp',[]).
     controller('helloWorldCtrl',function($scope){
-        $scope.name = "world";
+        $scope.name = {
+            firstName : 'ginko',
+            lastName : 'san'
+        };
 });
